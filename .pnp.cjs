@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@hotwired/stimulus", "npm:3.1.0"],
             ["@hotwired/turbo-rails", "npm:7.1.3"],
+            ["bulma", "npm:0.9.4"],
             ["webpack", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:5.74.0"],
             ["webpack-cli", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:4.10.0"]
           ],
@@ -544,6 +545,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["app", "workspace:."],
             ["@hotwired/stimulus", "npm:3.1.0"],
             ["@hotwired/turbo-rails", "npm:7.1.3"],
+            ["bulma", "npm:0.9.4"],
             ["webpack", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:5.74.0"],
             ["webpack-cli", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:4.10.0"]
           ],
@@ -568,6 +570,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/buffer-from-npm-1.1.2-03d2f20d7e-0448524a56.zip/node_modules/buffer-from/",
           "packageDependencies": [
             ["buffer-from", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bulma", [
+        ["npm:0.9.4", {
+          "packageLocation": "./.yarn/cache/bulma-npm-0.9.4-31b34939be-bc0ab8c203.zip/node_modules/bulma/",
+          "packageDependencies": [
+            ["bulma", "npm:0.9.4"]
           ],
           "linkType": "HARD",
         }]
