@@ -44,9 +44,9 @@ gem "bootsnap", require: false
 
 gem 'devise'
 
+
 gem 'bulma-rails', '~> 0.8.0'
 
-gem 'devise-bulma-views', '~> 0.1.0'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
